@@ -56,13 +56,14 @@ while ((animo_recibido <1) || (animo_recibido>100)){
    
     printf (MSJ_RECIBIR_ANIMO);
     scanf("%i", &animo_recibido);
-    
+     
     if (animo_recibido <1) || (animo_recibido>100);
     printf(MSJ_MAL_INGRESO);
     }
     else{
       printf("Ingreso Aceptado\n");
     }
+ }
 }
 /*
 bool verificar_animo_recib(int animo_verificar){
