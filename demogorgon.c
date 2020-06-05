@@ -47,6 +47,7 @@ const float VALOR_GANO_JUSTO = 65.0F;
 
 void comenzar_enfrentamiento(){
     printf(MSJ_ENFRENTAMIENTO);
+   
 }
 
 int recibir_animo(){
