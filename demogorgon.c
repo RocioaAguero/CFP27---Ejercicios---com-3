@@ -52,9 +52,7 @@ void comenzar_enfrentamiento(){
 
 int recibir_animo(){
     int animo_recibido = DEF_ANIMO;
-    
 while ((animo_recibido <1) || (animo_recibido>100)){
-   
     printf (MSJ_RECIBIR_ANIMO);
     scanf("%i", &animo_recibido);
      
@@ -65,7 +63,7 @@ while ((animo_recibido <1) || (animo_recibido>100)){
       printf("Ingreso Aceptado\n");
     }
  }
-}
+
 /*
 bool verificar_animo_recib(int animo_verificar){
 }
