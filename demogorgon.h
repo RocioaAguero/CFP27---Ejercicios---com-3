@@ -66,4 +66,3 @@ char enfrentamiento(float fuerza_psiquica);
 
 
 #endif /* __DEMOGORGON_H__ */
-© 2020 GitHub, Inc.
