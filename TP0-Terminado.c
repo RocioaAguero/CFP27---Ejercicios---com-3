@@ -1,11 +1,6 @@
 /***JUGADOR***/
 #include <stdio.h>
 
-
-/*void comienza_enfrentamiento();
-    printf("Comienza el enfrentamiento");*/
-
-
 const char CARACTER_NIVEL_BAJO = 'b';
 const char CARACTER_NIVEL_MEDIO = 'm';
 const char CARACTER_NIVEL_ALTO = 'a';
