@@ -9,8 +9,6 @@ const float NUMERO_CONFIANZA_BAJO = 0.7;
 const float NUMERO_CONFIANZA_MEDIO = 1.3;
 const float NUMERO_CONFIANZA_ALTO = 3.7;
 
-
-
 int
 main ()
 {
@@ -72,7 +70,7 @@ main ()
         printf ("jugador y contrincante desaparecen del enfrentamiento\n");
     }else if ((fuerza_psiquica>65) && (fuerza_psiquica<67)){
         printf ("Resultado positivo\n ataque certero\nJugador debilitado\n");
-    }else if ((fuerza_psiquica>=67) && (fuerza_psiquica<=370)){
+    }else if ((fuerza_psiquica>=67) && (fuerza_psiquica>=370)){
         printf ("Resultado positivo\n");
         printf ("Jugador vence contrincante\n");
     }else{
