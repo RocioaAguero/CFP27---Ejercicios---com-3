@@ -109,7 +109,7 @@ int main()
             
         }else{
             printf ("Ingreso incorrecto vuelva a intentarlo\n");
-            scanf (" %c", &voluntad);
+            scanf (" %c", &pasado);
         }   
     }while(!(((pasado == PASADO_BUENO) || (pasado == PASADO_NORMAL)) || (pasado == PASADO_TRAGICO)));
   
