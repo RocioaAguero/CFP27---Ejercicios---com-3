@@ -50,7 +50,7 @@ int main()
         
     }while (!((midiclonarios>=100.0) && (midiclonarios <= 2999.9)));
     
-    printf("Ingrese voluntad:\n\t‘f’ para Floja, \n\t‘b’ para Buena, \n\t‘m’ para Mediana, \n\t‘a’ para Alta, \n\t‘e’ para Enorme,\n\t‘p’ Peligrosa\n");
+    printf("Ingrese voluntad:\n\tf para Floja, \n\tb para Buena, \n\tm para Mediana, \n\ta para Alta, \n\te para Enorme,\n\tp Peligrosa\n");
     scanf (" %c", &voluntad);
     
   do
