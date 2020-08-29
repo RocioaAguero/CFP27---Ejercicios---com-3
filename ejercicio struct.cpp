@@ -57,7 +57,7 @@ using namespace std;
 		
 		ejecutar_opc(opcion, sujeto);
 	}while(opcion != SALIR);
-}
+   }
 
  int main(){
         int opcion=-2;
@@ -65,4 +65,4 @@ using namespace std;
         
         iniciar_programa(opcion, sujeto);
         return 0;
-    }
+ }
