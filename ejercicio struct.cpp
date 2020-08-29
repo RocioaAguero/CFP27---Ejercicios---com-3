@@ -30,29 +30,25 @@ using namespace std;
         
     }alguien_t;
 
-    int menu(int opcion){
+    void menu(int &opcion){
         cout << "Menú actualizar edad"<<endl;
         cout << "SI [1]"<<endl;
-        cout << "NO [2]"<<endl;
         cout << "SALIR [0]"<<endl;
         cin >> opcion;
-        return 5;
     }
 
-  
+
     int ejecutar_opc(int opcion, alguien_t sujeto){
         if (opcion == OP_ACTUALIZAR){
             cout << "Ingrese edad actualizada \n" ;
             cin >> sujeto.edad;
-            if (opcion == OPCION_NO){
-                cout <<"Edad confirmada \n" ;
-            }
+            
         }else if(opcion == SALIR){
             cout << "Finalizo \n" ;
         }else{
             cout << "Error \n" ;
         }
-        return 0;  
+        return -1;  
     }
     
    void iniciar_programa(int opcion, alguien_t sujeto){
@@ -64,16 +60,9 @@ using namespace std;
 }
 
  int main(){
-        int opcion=-1;
-    
-        alguien_t sujeto = {23456789, 36, "jose", true};
-        
-        cout << "La edad es"<< " " << sujeto.edad<<endl;
+        int opcion=-2;
+        alguien_t sujeto;
         
         iniciar_programa(opcion, sujeto);
-        ejecutar_opc(opcion, sujeto);
-       
-
         return 0;
     }
-
